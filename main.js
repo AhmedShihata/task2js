@@ -43,7 +43,7 @@ let remark= mark;
 console.log(remark-100);
 console.log(age);
 
-if (age>18){
+if (age<18){
         console.log("Under 18");
 }
 else{
