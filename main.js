@@ -1,33 +1,33 @@
 
 
-// let D = Number (prompt("Enter your Day From 1 To 7."));
+let D = Number (prompt("Enter your Day From 1 To 7."));
 
-// switch(D){
-//     case 1:
-//         console.log("Saturday");
-//         break
-//     case 2:
-//         console.log("Sunday");
-//         break
-//     case 3:
-//         console.log("Monday");
-//         break
-//     case 4:
-//         console.log("Tueseday");
-//         brea
-//     case 5:
-//         console.log("Wednsday");
-//         break
-//     case 6:
-//         console.log("Thursday");
-//         break
-//     case 7:
-//         console.log("Friday");
-//         break
+switch(D){
+    case 1:
+        console.log("Saturday");
+        break
+    case 2:
+        console.log("Sunday");
+        break
+    case 3:
+        console.log("Monday");
+        break
+    case 4:
+        console.log("Tueseday");
+        brea
+    case 5:
+        console.log("Wednsday");
+        break
+    case 6:
+        console.log("Thursday");
+        break
+    case 7:
+        console.log("Friday");
+        break
 
-//     default:
-//         console.log("Invalid Day.");
-// }
+    default:
+        console.log("Invalid Day.");
+}
 
 
 let Name= prompt("Enter Your Name.");
@@ -41,7 +41,7 @@ console.log(afage+=5);
 let remark= mark;
 
 console.log(remark-100);
-console.log(age)
+console.log(age);
 
 if (age>18){
         console.log("Under 18");
@@ -72,6 +72,7 @@ else {
     console.log("Fail");    
 }
 
+
 let cha= age; 
 let chm= mark;
 if (cha>=18)
@@ -82,5 +83,5 @@ else {
     console.log("Failed");
 }
 
-const mas= '--- Student Information --- Student Name: ${Name} Age: ${age} Age after 5 years: ${afage} Marks: ${mark} Remaining Marks: ${remark} Status: ${sta} Performance: ${per} '.trim();
+const mas= ' Student Name: ${Name} Age: ${age} Age after 5 years: ${afage} Marks: ${mark} Remaining Marks: ${remark} Status: ${sta} Performance: ${per} '.trim();
 console.log(mas);
