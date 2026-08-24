@@ -41,6 +41,7 @@ console.log(afage+=5);
 let remark= mark;
 
 console.log(remark-100);
+console.log(age)
 
 if (age>18){
         console.log("Under 18");
@@ -58,20 +59,18 @@ else {
 }
 
 let per= mark;    
-if (per>=90){
+if (per>=90 && per<=100){
     console.log("Excellent");   
 }
-else if (per>=75) {
+else if (per>=75 && per<=89) {
     console.log("Very Good");
 }
-else if (per>=50) {
+else if (per>=50 && per<=74) {
     console.log("Good");
 }
 else {
     console.log("Fail");    
 }
-
-
 
 let cha= age; 
 let chm= mark;
