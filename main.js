@@ -85,3 +85,18 @@ else {
 
 const mas= ' Student Name: ${Name} Age: ${age} Age after 5 years: ${afage} Marks: ${mark} Remaining Marks: ${remark} Status: ${sta} Performance: ${per} '.trim();
 console.log(mas);
+
+let type= alert(prompt("Choose Number from 1 to 3 Representing a Student"))
+switch(type){
+    case 1:
+        console.log("Regular Student");
+        break
+    case 2:
+        console.log("ITI Student");
+        break
+    case 3:
+        console.log("University Student");
+    default:
+        console.log("Invalid Student Type");
+        
+}
