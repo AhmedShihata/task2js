@@ -83,10 +83,15 @@ else {
     console.log("Failed");
 }
 
-const mas= ' Student Name: ${Name} Age: ${age} Age after 5 years: ${afage} Marks: ${mark} Remaining Marks: ${remark} Status: ${sta} Performance: ${per} '.trim();
+const mas= ` Student Name: ${Name}
+    Age: ${age} Age after 5 years: ${afage}
+    Marks: ${mark}
+    Remaining Marks: ${remark}
+    Status: ${sta}
+    Performance: ${per} `;
 console.log(mas);
 
-let type= window.prompt("Choose Number from 1 to 3 Representing a Student")
+let type= window.prompt("Choose Number from 1 to 3 Representing a Student");
 switch(type){
     case 1:
         console.log("Regular Student");
