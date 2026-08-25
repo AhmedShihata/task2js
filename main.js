@@ -84,7 +84,8 @@ else {
 }
 
 const mas= ` Student Name: ${Name}
-    Age: ${age} Age after 5 years: ${afage}
+    Age: ${age} 
+    Age after 5 years: ${afage}
     Marks: ${mark}
     Remaining Marks: ${remark}
     Status: ${sta}
@@ -101,6 +102,7 @@ switch(type){
         break
     case 3:
         console.log("University Student");
+        break
     default:
         console.log("Invalid Student Type");
         
