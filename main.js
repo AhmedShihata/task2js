@@ -83,14 +83,13 @@ else {
     console.log("Failed");
 }
 
-const mas= ` Student Name: ${Name}
-    Age: ${age} 
-    Age after 5 years: ${afage}
-    Marks: ${mark}
-    Remaining Marks: ${remark}
-    Status: ${sta}
-    Performance: ${per} `;
-console.log(mas);
+console.log(`Student Name: ${Name}
+            Age: ${age} 
+            Age after 5 years: ${afage}
+            Marks: ${mark}
+            Remaining Marks: ${remark}
+            Status: ${sta}
+            Performance: ${per} `);
 
 let type= window.prompt("Choose Number from 1 to 3 Representing a Student");
 switch(type){
