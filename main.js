@@ -36,12 +36,13 @@ let grade= Number(prompt("Enter Your Grade."));
 let mark= Number(prompt("Enter Your Marks Out of 100"));
 
 console.log(Name);
+console.log(age);
 let afage= age
 console.log(afage+=5);
-let remark= mark;
+let remark= mark-100;
+console.log(afage);
 
-console.log(remark-100);
-console.log(age);
+console.log(remark);
 
 if (age<18){
         console.log("Under 18");
@@ -51,25 +52,27 @@ else{
 }
 
 let sta= mark;
+
 if(sta>=50){
-    console.log("Passed");
+    sta = "Passed";
 }
 else {
-    console.log("Failed");   
+    sta = "[Failed]";
 }
-
+    
 let per= mark;    
 if (per>=90 && per<=100){
-    console.log("Excellent");   
+    per= "Excellent";
 }
 else if (per>=75 && per<=89) {
-    console.log("Very Good");
+    per= "Very Good"
 }
 else if (per>=50 && per<=74) {
-    console.log("Good");
+    per= "Good";
+;
 }
 else {
-    console.log("Fail");    
+    per= "Failed";
 }
 
 
@@ -77,10 +80,10 @@ let cha= age;
 let chm= mark;
 if (cha>=18)
     if (chm>=50){
-    console.log("Passed");
+    chm="Passed";
 }
 else {
-    console.log("Failed");
+    chm= "Failed";
 }
 
 console.log(`Student Name: ${Name}
@@ -91,7 +94,7 @@ console.log(`Student Name: ${Name}
             Status: ${sta}
             Performance: ${per} `);
 
-let type= window.prompt("Choose Number from 1 to 3 Representing a Student");
+let type= Number(window.prompt("Choose Number from 1 to 3 Representing a Student"));
 switch(type){
     case 1:
         console.log("Regular Student");
